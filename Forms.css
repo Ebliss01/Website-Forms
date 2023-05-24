@@ -1,0 +1,42 @@
+*{
+    padding: 1px;
+    margin: 1px;
+    box-sizing: border-box;
+}
+
+.heading h1{
+    display: flex;
+    justify-content: center;
+    padding: ;
+    margin: 10;
+    font-size: 50px;
+    background-color: navy;
+    color: whitesmoke;
+}
+
+.form textarea{
+    height: 150px;
+    font-size: 16px;
+}
+
+
+.btn{
+    display: block;
+    width: 100%;
+    background-color: navy;
+    color: whitesmoke;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 11px 11px 13px;
+    box-sizing: border-box;
+    border: 2px solid currentColor;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #2e5180;
+    background-color: grey;
+}
+
